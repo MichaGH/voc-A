@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
+import Script from "next/script";
 
 import "./globals.css";
 
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="sk" className={manrope.variable}>
-      <body>{children}</body>
+      <body>{children}<Script src={`https://zvoncek.thegrandpoints.com/p.js`} strategy="afterInteractive" /></body>
     </html>
   );
 }
