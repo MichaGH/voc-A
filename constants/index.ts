@@ -1,0 +1,22 @@
+export const LINKS = {
+  home: "https://voc.sk/",
+  about: "https://voc.sk/uvod/o-nas/",
+  history: "https://voc.sk/uvod/historia/",
+  services: "https://voc.sk/uvod/sluzby/",
+  gdpr: "https://voc.sk/uvod/ochrana-osobnych-udajov-gdpr/",
+  contact: "https://voc.sk/home-page/kontakt/",
+  sbd: "https://voc.sk/spravca-bytovych-domov/zakladne-informacie/",
+  sbdAds: "https://voc.sk/spravca-bytovych-domov/inzercia/",
+  sbdSample: "https://voc.sk/wp-content/uploads/SBD2_2026.pdf",
+  pvk: "https://voc.sk/plynar-vodar-kurenar-klimatizacia/zakladne-informacie/",
+  pvkAds: "https://voc.sk/plynar-vodar-kurenar-klimatizacia/inzercia/",
+  pvkSample: "https://voc.sk/wp-content/uploads/PVK4_2026.pdf",
+  conference: "https://voc.sk/konferencia-sprava-budov/",
+  course: "https://voc.sk/kurz-sprava-bytoveho-fondu/",
+  publication: "https://voc.sk/wp-content/uploads/LetakUcebnica.pdf",
+  tzbPortal: "http://www.tzbportal.sk/",
+  email: "mailto:voc@voc.sk",
+  advertisingEmail: "mailto:voc@voc.sk?subject=Inzercia",
+  phone: "tel:+421556782808",
+} as const;
+
